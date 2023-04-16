@@ -56,7 +56,7 @@ header {
     
 }
 
-form {
+.login-form form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -92,7 +92,7 @@ form {
 
 }
 
-ul {
+.login-nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -101,10 +101,56 @@ ul {
     align-items: center;
 }
 
-li {
+.login-nav li {
     
     font-size: 1.5rem;
     font-family: 'Pacifico', cursive;
     text-align: center;
     align-items: center;
 }
+
+/*Register.html*/
+
+.register .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(1, 1, 0, 0.3);
+    padding: 30px;
+    width: 300px;
+    height:fit-content;
+    transform: translateX(20px);
+    margin-top: 10vh;
+}
+
+.register form {
+    
+   
+
+    
+}
+
+.register input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    
+    
+    
+}
+
+.register button {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    
+    
+}
+
