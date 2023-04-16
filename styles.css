@@ -167,6 +167,7 @@ header {
     font-family: 'Pacifico', cursive;
     padding: 0 20px;
     margin: 0;
+    
    
 }
 
@@ -203,4 +204,8 @@ header {
     
 }
 
-
+.home-nav img {
+    width: 25px;
+    height: 25px;
+    
+}
