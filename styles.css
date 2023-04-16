@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #d0d6d8;
+    background: #f7f9fa;
    
     
     
@@ -126,12 +126,6 @@ header {
     margin-top: 10vh;
 }
 
-.register form {
-    
-   
-
-    
-}
 
 .register input {
     border: 1px solid #ccc;
@@ -153,4 +147,60 @@ header {
     
     
 }
+
+/*home.html*/
+
+.home-nav {
+    display: flex;
+    background: #bcdce9;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+
+}
+
+.home-nav h1 {
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    padding: 0 20px;
+    margin: 0;
+   
+}
+
+.home-nav ul {
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    
+   
+    
+   
+   
+    
+
+}
+
+.home-nav li {
+    
+    display: flex;
+    font-size: 1.5rem;
+    text-align: right;
+    
+    
+
+   
+}
+
+
+.home-nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 20px;
+    display: flex;
+    
+}
+
 
