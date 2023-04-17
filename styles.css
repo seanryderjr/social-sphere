@@ -6,12 +6,11 @@ body {
    
     font-family: 'Dongle', cursive;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #f7f9fa;
+    background: #dae2e6;
    
     
     
@@ -207,5 +206,79 @@ header {
 .home-nav img {
     width: 25px;
     height: 25px;
+    
+} .home-nav img:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+    
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fff;
+    border-radius: 20px;
+    width: 600px;
+    transform: translateY(-89px);
+    padding: 10px;
+
+    
+    
+}
+
+.home-form {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+    
+}
+
+.home-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.home-form input {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 500px;
+    height: 20px;
+
+
+
+}
+
+.home-form button {
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 500px;
+    height: 100px;
+    resize: none;
     
 }
