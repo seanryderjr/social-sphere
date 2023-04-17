@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="script"></script>
     <title>Social Sphere | Home</title>
 </head>
+
 <body>
     <nav class="home-nav">
         <h1>Social.Sphere</h1>
@@ -15,20 +17,90 @@
             <li><a href="home.html"><img src="images/home_FILL0_wght400_GRAD0_opsz48.png" alt=""></a></li>
             <li><a href="profile.html"><img src="images/person_FILL0_wght400_GRAD0_opsz48.png" alt=""></a></li>
             <li><a href="messages.html"><img src="images/chat_FILL0_wght400_GRAD0_opsz48.png" alt=""></a></li>
-            <li><a href="notifications.html"><img src="images/notifications_FILL0_wght400_GRAD0_opsz48.png" alt=""> </a></li>
+            <li><a href="notifications.html"><img src="images/notifications_FILL0_wght400_GRAD0_opsz48.png" alt=""> </a>
+            </li>
             <li><a href="settings.html"><img src="images/settings_FILL0_wght400_GRAD0_opsz48.png" alt=""></a></li>
             <li><a href="logout.php">Logout</a></li>
         </ul>
     </nav>
     <header class="home-container">
         <div class="home-form">
-            
+
             <form action="home.php" method="POST">
                 <input type="text" name="post" placeholder="What's on your mind?" required>
                 <button type="submit" value="Post">Post</button>
             </form>
         </div>
     </header>
+    <div class="left-bar">
+        <ul class="left-bar-list">
+            <li>My Photos</li>
+            <li>My Friends</li>
+            <li>My Posts</li>
+            <li>My Videos</li>
+            <li>My Groups</li>
+            <li>My Events</li>
+        </ul>
+    </div>
+    <div class="right-bar">
+        <h2 class="notifications">&#128400;Online Now!</h2>
+        <ul class="right-bar-list">
+            <li>Susan Jones</li>
+            <li>Jason Lee</li>
+            <li>John Jacobs</li>
+            <li>Sherry Reeve</li>
+
+        </ul>
+    </div>
+    <div class="main">
+        <div class="post">
+            <div class="post-header">
+                <img src="images/person_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <h3>John Doe</h3>
+            </div>
+            <div class="post-body">
+                <p>Went out on the boat today. Great times...</p>
+            </div>
+            <div class="post-footer">
+                <ul>
+                    <li><a href="#">&#128077;</a></li>
+                    <li><a href="#">&#128172;</a></li>
+                    <li><a href="#">&#10548;</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-header">
+                <img src="images/person_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <h3>Steve Johnson</h3>
+            </div>
+            <div class="post-body">
+                <p>I love my family!</p>
+            </div>
+            <div class="post-footer">
+                <ul>
+                    <li><a href="#">&#128077;</a></li>
+                    <li><a href="#">&#128172;</a></li>
+                    <li><a href="#">&#10548;</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-header">
+                <img src="images/person_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <h3>Will Smith</h3>
+            </div>
+            <div class="post-body">
+                <p>Shooting a new movie today. Cant wait for you to see it!</p>
+            </div>
+            <div class="post-footer">
+                <ul>
+                    <li><a href="#">&#128077;</a></li>
+                    <li><a href="#">&#128172;</a></li>
+                    <li><a href="#">&#10548;</a></li>
+                </ul>
+            </div>
 
 </body>
+
 </html>
